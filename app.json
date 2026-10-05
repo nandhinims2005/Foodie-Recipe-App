@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Foodie",
+    "slug": "foodie-recipe-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Foodie uses your photo library so you can add pictures to your recipes."
+        }
+      ]
+    ]
+  }
+}
